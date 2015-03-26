@@ -1,0 +1,1 @@
+Estado = new Meteor.Collection('estado');

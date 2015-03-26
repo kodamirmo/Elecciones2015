@@ -1,0 +1,1 @@
+Municipio = new Meteor.Collection('municipio');
