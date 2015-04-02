@@ -1,5 +1,5 @@
 Template.home.rendered = function(){
-	//$('.selectpicker').selectpicker();
+	$('.dropdown').dropdown();
 };
 
 Template.home.helpers({

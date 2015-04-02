@@ -1,30 +1,25 @@
 <template name="home">
-<section id="home" name="home"></section>
 <div id="headerwrap">
 	<div class="container">
-		<div class="logo">
-			<img src="img/logo.png">
-		</div>
-		<br>
 		<div class="row">
+			
 			<h1>MINIMAL THEME</h1>
+			
 			<br>
 				<h3>Hello, I'm Carlos. I love design.</h3>
 			<br>
 			
-			<select  id="estadoSelect">
+			<select class="ui search dropdown" id="estadoSelect">
     			{{#each estados}}
     				<option value="{{codigoEstado}}">{{estado}}</option>
     			{{/each}}
   			</select>
 
-			{{#if showMunicipios}}
-  			<select >
+  			<select class="ui search dropdown">
     			{{#each municipios}}
     				<option value="{{codigoMunicipio}}">{{municipio}}</option>
     			{{/each}}
   			</select>
-  			{{/if}}
 
   			<br>
 			
